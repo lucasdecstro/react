@@ -2,6 +2,7 @@ import styled from 'styled-components'
 
 export const HomeContainer = styled.main`
   flex: 1;
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,18 +19,20 @@ export const HomeContainer = styled.main`
 export const BaseCountdownButton = styled.button`
   width: 100%;
   border: 0;
-  padding: 1rem;
   border-radius: 8px;
+  padding: 1rem;
 
   display: flex;
   align-items: center;
   justify-content: center;
-  color: ${(props) => props.theme['gray-100']};
 
   gap: 0.5rem;
   font-weight: bold;
 
+  color: ${(props) => props.theme['text-button']};
   cursor: pointer;
+
+  transition: background-color 0.2s ease;
 
   &:disabled {
     opacity: 0.7;
@@ -38,17 +41,17 @@ export const BaseCountdownButton = styled.button`
 `
 
 export const StartCountdownButton = styled(BaseCountdownButton)`
-  background: ${(props) => props.theme['green-500']};
+  background: ${(props) => props.theme['ignite-mid']};
 
   &:not(:disabled):hover {
-    background: ${(props) => props.theme['green-700']};
+    background: ${(props) => props.theme['ignite-dark']};
   }
 `
 
-export const StopCountdownButton = styled(BaseCountdownButton)`
-  background: ${(props) => props.theme['red-500']};
+export const StopCountdownButton = styled(StartCountdownButton)`
+  background: ${(props) => props.theme['ec-light']};
 
   &:not(:disabled):hover {
-    background: ${(props) => props.theme['red-700']};
+    background: ${(props) => props.theme['ec-dark']};
   }
 `
