@@ -1,0 +1,52 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "description": "Desenvolvimento de site",
+      "type": "income",
+      "category": "Venda",
+      "price": 14000,
+      "createdAt": "2023-04-11T18:32:05.476Z"
+    },
+    {
+      "id": 2,
+      "description": "Burgão",
+      "type": "outcome",
+      "category": "Alimentação",
+      "price": 50,
+      "createdAt": "2023-04-11T18:30:05.476Z"
+    },
+    {
+      "id": 3,
+      "description": "Ignite",
+      "type": "outcome",
+      "category": "Education",
+      "price": 1980,
+      "createdAt": "2023-04-13T18:30:05.476Z"
+    },
+    {
+      "description": "Coxinha",
+      "price": 10,
+      "category": "Alimentação",
+      "type": "outcome",
+      "createdAt": "2023-04-13T20:18:10.144Z",
+      "id": 4
+    },
+    {
+      "description": "Coxinha",
+      "price": 10,
+      "category": "Alimentação",
+      "type": "outcome",
+      "createdAt": "2023-04-13T20:18:13.339Z",
+      "id": 5
+    },
+    {
+      "description": "Alimentação",
+      "price": 12,
+      "category": "Doritos",
+      "type": "outcome",
+      "createdAt": "2023-04-13T20:34:42.529Z",
+      "id": 6
+    }
+  ]
+}
