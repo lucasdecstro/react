@@ -14,3 +14,5 @@ export function App() {
     </ThemeProvider>
   )
 }
+
+// Testing code
